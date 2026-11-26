@@ -1,55 +1,27 @@
 # Awesome MARL Sim-to-Real Transfer
 
-A curated collection of research papers, surveys, and resources related to **Simulation-to-Reality (Sim-to-Real) Transfer in Multi-Agent Reinforcement Learning (MARL)** for embodied systems.
+A curated collection of research papers, surveys, and resources related to **Simulation-to-Reality (Sim-to-Real) Transfer in Multi-Agent Reinforcement Learning (MARL)** for embodied systems. accompanying the survey **Sim-to-Real Transfer in Multi-Agent Reinforcement Learning for Embodied Systems**
 
-This repository accompanies the survey:
-
-> **Sim-to-Real Transfer in Multi-Agent Reinforcement Learning for Embodied Systems**
-
-### Overview
+## Overview
 
 The deployment of Multi-Agent Reinforcement Learning (MARL) systems in the real world is hindered by the **sim-to-real gap**, where policies trained in simulation experience degraded performance after deployment.
 
-From the perspective of the Dec-POMDP formulation, transfer failures generally arise from three sources. First, the
-observations agents receive may differ from those encountered during training due to discrepancies in the observation
-function O. Second, the physical world may exhibit transition dynamics that differ from those modeled by the simulator,
-producing discrepancies in the transition function T . Finally, because MARL performance depends on interactions
-among multiple agents, coordination patterns learned during training may not be preserved after deployment due to
-differences in communication, sensing, agent availability, or environmental conditions creating discrepancies in Π.
-Accordingly, this survey organizes sim-to-real challenges in MARL into three categories: observation mismatch (O),
-dynamics mismatch (T), and coordination mismatch (Π).
+From the perspective of the Dec-POMDP formulation, transfer failures generally arise from three sources. First, the observations agents receive may differ from those encountered during training due to discrepancies in the observation function. Second, the physical world may exhibit transition dynamics that differ from those modeled by the simulator, producing discrepancies in the transition function T . Finally, because MARL performance depends on interactions among multiple agents, coordination patterns learned during training may not be preserved after deployment due to differences in communication, sensing, agent availability, or environmental conditions creating discrepancies in Π. Accordingly, this survey organizes sim-to-real challenges in MARL into three categories: observation mismatch, dynamics mismatch, and coordination mismatch.
 
-This survey organizes sim-to-real transfer methods into a taxonomy based on how each approach addresses the sources
-of mismatch identified in the previous section. Specifically, the literature can be grouped into four broad categories
-according to the primary mechanism used to reduce the sim-to-real gap: (1) learning policies that are robust to
-mismatch between simulated and real domains, (2) adapting the simulated domain to more closely match the real
-domain, (3) adapting policies to the real domain after deployment, and (4) improving the robustness of multi-agent
-coordination. These approaches differ in both their underlying assumptions and the mismatch categories they are
-designed to address. The following sections examine each category in detail, while Table 1 provides an overview of the
-taxonomy, representative methodologies, and their relationship to observation, dynamics, and coordination mismatch
-
-* Robust Policies
-* Adapt Simulation
-* Adapt Policies
-* Robust Coordination
+This survey organizes sim-to-real transfer methods into a taxonomy based on how each approach addresses the sources of mismatch identified in the previous section. Specifically, the literature can be grouped into four broad categories according to the primary mechanism used to reduce the sim-to-real gap: (1) learning policies that are robust to mismatch between simulated and real domains, (2) adapting the simulated domain to more closely match the real domain, (3) adapting policies to the real domain after deployment, and (4) improving the robustness of multi-agent coordination. These approaches differ in both their underlying assumptions and the mismatch categories they are designed to address. The following sections examine each category in detail, while Table 1 provides an overview of the taxonomy, representative methodologies, and their relationship to observation, dynamics, and coordination mismatch.
 
 ---
 
-# Learning Policies That are Robust to
-Mismatch Between Simulated and Real Domains
+# Learning Policies That are Robust to Mismatch Between Simulated and Real Domains
 
+## Domain Randomization: 
 
-Robustness-before-deployment approaches seek to improve sim-to-real transfer by preparing agents, in training, for
-the uncertainty the model will face in the physical world.
-
-### Domain Randomization: 
-
-Domain randomization introduces variability into the simulator’s observation and transition functions
+Domain randomization introduces variability into the simulator’s observation and transition functions creating policies that are more roboust to mismatch between domains
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
 | Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
-|Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | 'candela2022transferring' | Combined MAPPO with domain randomization to solve transference in duckietown environment |
+|Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
 | Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
 
 # Adapt Simulated Domain to Match Real Domain
