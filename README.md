@@ -44,7 +44,7 @@ the uncertainty the model will face in the physical world.
 
 ## Domain Randomization: 
 
-domain randomization introduces variability into the simulator’s observation and transition functions
+Domain randomization introduces variability into the simulator’s observation and transition functions
 
 | Paper | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
