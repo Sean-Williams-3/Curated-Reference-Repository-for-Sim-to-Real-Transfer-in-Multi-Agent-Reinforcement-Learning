@@ -38,12 +38,13 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
-| Rao et al. | RL-CycleGAN: Reinforcement Learning Aware Simulation-to-Real | 2020 | `Rao2020RLCycleGANRL` | Used a representative example of domain adaptation in Cycle-Consistent Generative Adversarial Networks (CycleGANs) to translate simulated images into realistic images and vice versa while evaluating the ability to retain decision-relevant information. |
+| Rao et al. | Joint-Local Grounded Action Transformation for Sim-to-Real Transfer in Multi-Agent Traffic Control | 2025 | `turnau2025jlgat` | Introduces a grounding action transformation to address dynamic mismatch in traffic control solutions.|
 
 ***Grounding Methods***: seek to reduce simulator bias by directly aligning simulated system behavior with observations collected from the real world. Unlike domain adaptation approaches, which primarily focus on translating observations or learned representations between domains, grounding methods operate on the interaction between domain dynamics using limited real-world data to improve or ground an imperfect simulator in reality.
 
 | Paper | Title | Year | BibTeX Key | Contribution |
-|---------|---------|---------|---------|
+|---------|---------|---------|---------|---------|
+| Turnau et al. | RL-CycleGAN: Reinforcement Learning Aware Simulation-to-Real | 2020 | `Rao2020RLCycleGANRL` | Used a representative example of domain adaptation in Cycle-Consistent Generative Adversarial Networks (CycleGANs) to translate simulated images into realistic images and vice versa while evaluating the ability to retain decision-relevant information. |
 
 ***Digital Twins***: Digital twin approaches extend simulator adaptation by maintaining a continuously synchronized virtual representation of a physical system. 
 
