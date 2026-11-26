@@ -6,7 +6,7 @@ This repository accompanies the survey:
 
 > **Sim-to-Real Transfer in Multi-Agent Reinforcement Learning for Embodied Systems**
 
-## Overview
+### Overview
 
 The deployment of Multi-Agent Reinforcement Learning (MARL) systems in the real world is hindered by the **sim-to-real gap**, where policies trained in simulation experience degraded performance after deployment.
 
@@ -42,7 +42,7 @@ Mismatch Between Simulated and Real Domains
 Robustness-before-deployment approaches seek to improve sim-to-real transfer by preparing agents, in training, for
 the uncertainty the model will face in the physical world.
 
-## Domain Randomization: 
+### Domain Randomization: 
 
 Domain randomization introduces variability into the simulator’s observation and transition functions
 
@@ -57,11 +57,11 @@ Domain randomization introduces variability into the simulator’s observation a
 Unlike robustness-based approaches that seek to prepare agents for uncertainty before deployment, simulator adaptation
 methods use observations collected from the real world to improve simulation fidelity.
 
-## System Identification
+### System Identification
 
-## Domain Adaptation
+### Domain Adaptation
 
-## Grounding Methods
+### Grounding Methods
 
 ## Digital Twins
 
