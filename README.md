@@ -24,51 +24,43 @@ Domain randomization introduces variability into the simulator’s observation a
 |Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
 | Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
 
+---
 # Adapt Simulated Domain to Match Real Domain
 
 Unlike robustness-based approaches that seek to prepare agents for uncertainty before deployment, simulator adaptation
 methods use observations collected from the real world to improve simulation fidelity.
 
-### System Identification
+## System Identification
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
-| Werner et al. | 2023 | `werner2023dynamic` | Physics-based system identification for autonomous racing. |
 
 | Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
 
-### Domain Adaptation
+## Domain Adaptation
+| Paper | Title | Year | BibTeX Key | Contribution |
+|---------|---------|---------|---------|
 
-### Grounding Methods
+## Grounding Methods
+| Paper | Title | Year | BibTeX Key | Contribution |
+|---------|---------|---------|---------|
 
 ## Digital Twins
-
-# Adapt Policy to Real Domain1
-| Paper | Year | BibTeX Key | Contribution |
+| Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
-| Rao et al. (RL-CycleGAN) | 2020 | `rao2020rlcyclegan` | Observation alignment through image translation. |
-| Turnau et al. (JL-GAT) | 2025 | `turnau2025jlgat` | Grounded action transformations for simulator alignment. |
 
 ---
-
-# Adapt Policy
-
-Dynamics mismatch occurs when state transitions observed in reality differ from transitions experienced during simulation.
-
-
+# Adapt Policy to Real Domain
 
 ## Simulation Optimization
 
-| Paper | Year | BibTeX Key | Contribution |
+| Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
-| Chebotar et al. (SimOpt) | 2019 | `chebotar2019closing` | Adjusts simulator parameter distributions using real-world rollouts. |
 
 ## Digital Twins
 
-| Paper | Year | BibTeX Key | Contribution |
+| Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
-| Samak et al. | 2024 | `samak2024scalable` | Resource-aware digital twin framework for MARL. |
-| Samak et al. | 2026 | `samak2026mixed` | Mixed-reality architecture coupling physical and simulated agents. |
 
 ## Meta-Reinforcement Learning
 
@@ -78,27 +70,22 @@ Dynamics mismatch occurs when state transitions observed in reality differ from 
 
 | Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
 
-#Adapt Policy
+
 ## Continual Learning
 
-| Paper | Year | BibTeX Key | Contribution |
-|---------|---------|---------|---------|
-| Khetarpal et al. | 2022 | `khetarpal2022jair-continual` | Survey of continual reinforcement learning. |
-| Schwarz et al. | 2018 | `schwarz2018progress` | Progress & Compress framework for continual learning. |
+| Paper | Title | Year | BibTeX Key | Contribution |
+|---------|---------|---------|---------|---------|
 
 ---
 
 # Robust Coordination
-
-Coordination mismatch occurs when interactions among agents differ between simulation and real-world deployment.
 
 ## Centralized Training with Decentralized Execution (CTDE)
 
 | Paper | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
 |Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
-| Lowe et al. (MADDPG) | 2017 | `lowe2017maddpg` | Centralized critic with decentralized actors. |
-| Rashid et al. (QMIX) | 2018 | `rashid2018qmix` | Value decomposition for scalable coordination. |
+| Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
 
 ## Communication Learning
 
