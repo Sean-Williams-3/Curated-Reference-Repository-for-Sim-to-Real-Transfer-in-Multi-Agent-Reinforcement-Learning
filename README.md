@@ -38,7 +38,12 @@ taxonomy, representative methodologies, and their relationship to observation, d
 # Learning Policies That are Robust to
 Mismatch Between Simulated and Real Domains
 
-## Domain Randomization
+
+Robustness-before-deployment approaches seek to improve sim-to-real transfer by preparing agents, in training, for
+the uncertainty the model will face in the physical world.
+
+## Domain Randomization: domain randomization introduces variability into
+the simulator’s observation and transition functions
 
 | Paper | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
