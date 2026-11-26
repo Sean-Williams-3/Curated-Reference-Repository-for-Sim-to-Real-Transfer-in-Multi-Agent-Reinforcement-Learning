@@ -68,6 +68,8 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
+|Khetarpal et al. | Towards Continual Reinforcement Learning: A Review and Perspectives | 2022 | `khetarpal2022jair-continual` | Provides a survey of existing research surrounding continual learning and Meta-RL|
+|Schwarz et al.|Progress & Compress: A Scalable Framework for Continual Learning|2018|`schwarz2018progress`|proposed the use of a two component process whereby a knowledge based was retained capabile fo solving previously encountered problems. That is then connected to a active column employed to efficiently learn the current task. After the active column learns the task, it is distilled to the knowledge base while ensuring protection of previous skills. |
 
 # Robust Coordination
 
