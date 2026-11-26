@@ -46,11 +46,11 @@ the uncertainty the model will face in the physical world.
 
 Domain randomization introduces variability into the simulator’s observation and transition functions
 
-| Paper | Year | BibTeX Key | Contribution |
-|---------|---------|---------|---------|
+| Paper | Title | Year | BibTeX Key | Contribution |
+|---------|---------|---------|---------|---------|
 | Tobin et al. | 2017 | `tobin2017domain` | Introduced visual domain randomization. |
 | Peng et al. | 2018 | `peng2018sim` | Dynamics randomization for sim-to-real control. |
-| Shi et al. | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using a LSTM layer as part of a MADDPG|
+| Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
 
 # Adapt Simulated Domain to Match Real Domain
 
