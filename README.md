@@ -98,11 +98,9 @@ Dynamics mismatch occurs when state transitions observed in reality differ from 
 
 ## Meta-Reinforcement Learning
 
-| Paper | Year | BibTeX Key | Contribution |
-|---------|---------|---------|---------|
-| Finn et al. (MAML) | 2017 | `finn2017maml` | Fast adaptation to unseen environments. |
-| RL² | 2017 | `duan2017rl2` | Learns adaptation through recurrent policies. |
-| PEARL | 2019 | `rakelly2019pearl` | Context-based policy adaptation. |
+| Paper | Title | Year | BibTeX Key | Contribution |
+|---------|---------|---------|---------|---------|
+| Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
 
 #Adapt Policy
 ## Continual Learning
