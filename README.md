@@ -10,6 +10,15 @@ This repository accompanies the survey:
 
 The deployment of Multi-Agent Reinforcement Learning (MARL) systems in the real world is hindered by the **sim-to-real gap**, where policies trained in simulation experience degraded performance after deployment.
 
+From the perspective of the Dec-POMDP formulation, transfer failures generally arise from three sources. First, the
+observations agents receive may differ from those encountered during training due to discrepancies in the observation
+function O. Second, the physical world may exhibit transition dynamics that differ from those modeled by the simulator,
+producing discrepancies in the transition function T . Finally, because MARL performance depends on interactions
+among multiple agents, coordination patterns learned during training may not be preserved after deployment due to
+differences in communication, sensing, agent availability, or environmental conditions creating discrepancies in Π.
+Accordingly, this survey organizes sim-to-real challenges in MARL into three categories: observation mismatch (O),
+dynamics mismatch (T), and coordination mismatch (Π).
+
 This survey organizes sim-to-real transfer methods into a taxonomy based on how each approach addresses the sources
 of mismatch identified in the previous section. Specifically, the literature can be grouped into four broad categories
 according to the primary mechanism used to reduce the sim-to-real gap: (1) learning policies that are robust to
