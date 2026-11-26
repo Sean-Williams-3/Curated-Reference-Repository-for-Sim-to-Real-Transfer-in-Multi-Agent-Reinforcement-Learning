@@ -10,13 +10,11 @@ From the perspective of the Dec-POMDP formulation, transfer failures generally a
 
 This survey organizes sim-to-real transfer methods into a taxonomy based on how each approach addresses the sources of mismatch identified in the previous section. Specifically, the literature can be grouped into four broad categories according to the primary mechanism used to reduce the sim-to-real gap: (1) learning policies that are robust to mismatch between simulated and real domains, (2) adapting the simulated domain to more closely match the real domain, (3) adapting policies to the real domain after deployment, and (4) improving the robustness of multi-agent coordination. These approaches differ in both their underlying assumptions and the mismatch categories they are designed to address. The following sections examine each category in detail, while Table 1 provides an overview of the taxonomy, representative methodologies, and their relationship to observation, dynamics, and coordination mismatch.
 
----
 
-# Learning Policies That are Robust to Mismatch Between Simulated and Real Domains
 
-## Domain Randomization: 
+# Learning Policies Robust to Simulated and Real Domain Mismatch
 
-Domain randomization introduces variability into the simulator’s observation and transition functions creating policies that are more roboust to mismatch between domains
+***Domain Randomization***: introduces variability into the simulator’s observation and transition functions, creating policies that are more robust to mismatch between domains
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
@@ -24,10 +22,11 @@ Domain randomization introduces variability into the simulator’s observation a
 |Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
 | Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
 | Tobin et al. | Domain randomization for transferring deep neural networks from simulation to the real world | 2017 | `8202133` | Applied domain randomization to a computer vision challenge in robotics | 
-| Samak et al. | A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems | 2024 | Utilized the Proximal Policy Optimization (PPO) algorithm with agents sharing information, combined with domain randomization, and a digital twin.
----
-# Adapt Simulated Domain to Match Real Domain
+| Samak et al. | A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems | 2024 | `samak2024scalable` | Utilized the Proximal Policy Optimization (PPO) algorithm with agents sharing information, combined with domain randomization, and a digital twin. |
+| Peng et al. | Sim-to-Real Transfer of Robotic Control with Dynamics Randomization | 2018 | `peng2018sim` | Combined domain randomization to address dynamics mismatch in a single agent puck pushing task |
 
+# Adapt Simulated Domain to Match Real Domain
+---
 Unlike robustness-based approaches that seek to prepare agents for uncertainty before deployment, simulator adaptation
 methods use observations collected from the real world to improve simulation fidelity.
 
