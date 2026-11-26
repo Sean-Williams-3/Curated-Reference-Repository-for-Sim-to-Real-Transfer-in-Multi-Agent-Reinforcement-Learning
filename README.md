@@ -23,7 +23,7 @@ Domain randomization introduces variability into the simulator’s observation a
 | Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
 |Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
 | Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
-
+| Tobin et al. | Domain randomization for transferring deep neural networks from simulation to the real world | 2017 | `8202133` | Applied domain randomization to a computer vision challenge in robotics | 
 ---
 # Adapt Simulated Domain to Match Real Domain
 
