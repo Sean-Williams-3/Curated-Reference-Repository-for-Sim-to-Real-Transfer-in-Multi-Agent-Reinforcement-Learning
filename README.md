@@ -45,6 +45,7 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
 | Turnau et al. | RL-CycleGAN: Reinforcement Learning Aware Simulation-to-Real | 2020 | `Rao2020RLCycleGANRL` | Used a representative example of domain adaptation in Cycle-Consistent Generative Adversarial Networks (CycleGANs) to translate simulated images into realistic images and vice versa while evaluating the ability to retain decision-relevant information. |
+| Chbotar et al. | Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience | 2019 | `chebotar2019closing` | Introduced an iterative approach that updated the distribution associated with simulator parameters based on descrepancies between the simulation and real world. Although the author does not directly identify this approach as a grounding method, SimOpt is closely related.| 
 
 ***Digital Twins***: Digital twin approaches extend simulator adaptation by maintaining a continuously synchronized virtual representation of a physical system. 
 
