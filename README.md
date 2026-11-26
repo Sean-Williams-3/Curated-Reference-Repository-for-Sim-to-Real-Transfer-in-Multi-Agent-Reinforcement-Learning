@@ -50,7 +50,7 @@ Domain randomization introduces variability into the simulator’s observation a
 |---------|---------|---------|---------|
 | Tobin et al. | 2017 | `tobin2017domain` | Introduced visual domain randomization. |
 | Peng et al. | 2018 | `peng2018sim` | Dynamics randomization for sim-to-real control. |
-| Shi et al. | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer. |
+| Shi et al. | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using a LSTM layer as part of a MADDPG|
 
 # Adapt Simulated Domain to Match Real Domain
 
