@@ -51,6 +51,7 @@ Domain randomization introduces variability into the simulator’s observation a
 | Tobin et al. | 2017 | `tobin2017domain` | Introduced visual domain randomization. |
 | Peng et al. | 2018 | `peng2018sim` | Dynamics randomization for sim-to-real control. |
 | Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
+| Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
 
 # Adapt Simulated Domain to Match Real Domain
 
@@ -58,6 +59,12 @@ Unlike robustness-based approaches that seek to prepare agents for uncertainty b
 methods use observations collected from the real world to improve simulation fidelity.
 
 ### System Identification
+
+| Paper | Title | Year | BibTeX Key | Contribution |
+|---------|---------|---------|---------|
+| Werner et al. | 2023 | `werner2023dynamic` | Physics-based system identification for autonomous racing. |
+
+| Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
 
 ### Domain Adaptation
 
@@ -77,11 +84,7 @@ methods use observations collected from the real world to improve simulation fid
 
 Dynamics mismatch occurs when state transitions observed in reality differ from transitions experienced during simulation.
 
-## System Identification
 
-| Paper | Year | BibTeX Key | Contribution |
-|---------|---------|---------|---------|
-| Werner et al. | 2023 | `werner2023dynamic` | Physics-based system identification for autonomous racing. |
 
 ## Simulation Optimization
 
@@ -101,6 +104,8 @@ Dynamics mismatch occurs when state transitions observed in reality differ from 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
 | Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
+
+| Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
 
 #Adapt Policy
 ## Continual Learning
