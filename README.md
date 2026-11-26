@@ -96,6 +96,7 @@ Coordination mismatch occurs when interactions among agents differ between simul
 
 | Paper | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
+|Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
 | Lowe et al. (MADDPG) | 2017 | `lowe2017maddpg` | Centralized critic with decentralized actors. |
 | Rashid et al. (QMIX) | 2018 | `rashid2018qmix` | Value decomposition for scalable coordination. |
 
