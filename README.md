@@ -12,14 +12,14 @@ The deployment of Multi-Agent Reinforcement Learning (MARL) systems in the real 
 
 This repository organizes literature according to a mismatch-centric taxonomy:
 
-- Observation Mismatch
-- Dynamics Mismatch
-- Coordination Mismatch
-- Foundation Models
+- Robust
+- Adapt Sim
+- Adapt Policy
+- Robust Coordination
 
 ---
 
-# Observation Mismatch
+# Robust
 
 Observation mismatch occurs when the observations received by an agent during deployment differ from those encountered during training.
 
@@ -31,7 +31,7 @@ Observation mismatch occurs when the observations received by an agent during de
 | Peng et al. | 2018 | `peng2018sim` | Dynamics randomization for sim-to-real control. |
 | Shi et al. | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer. |
 
-## Domain Adaptation
+# Adapt Sim
 
 | Paper | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
@@ -40,7 +40,7 @@ Observation mismatch occurs when the observations received by an agent during de
 
 ---
 
-# Dynamics Mismatch
+# Adapt Policy
 
 Dynamics mismatch occurs when state transitions observed in reality differ from transitions experienced during simulation.
 
@@ -71,6 +71,7 @@ Dynamics mismatch occurs when state transitions observed in reality differ from 
 | RL² | 2017 | `duan2017rl2` | Learns adaptation through recurrent policies. |
 | PEARL | 2019 | `rakelly2019pearl` | Context-based policy adaptation. |
 
+#Adapt Policy
 ## Continual Learning
 
 | Paper | Year | BibTeX Key | Contribution |
@@ -80,7 +81,7 @@ Dynamics mismatch occurs when state transitions observed in reality differ from 
 
 ---
 
-# Coordination Mismatch
+# Robust Coordination
 
 Coordination mismatch occurs when interactions among agents differ between simulation and real-world deployment.
 
