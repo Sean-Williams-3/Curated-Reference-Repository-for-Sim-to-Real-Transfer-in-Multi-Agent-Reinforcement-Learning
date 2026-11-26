@@ -80,7 +80,7 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 |Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
 | Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
 | Werner et al. | Dynamic Multi-Team Racing: Competitive Driving on 1/10-th Scale Vehicles via Learning in Simulation | `werner2023dynamic` | Applied System Identification and CTDE via a decoupled SARSA to a MARL team racing problem set
-
+| Rashid et al. | QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning | 2018 | `rashid2018qmix` | Foundational paper that presented QMIX as a an approach to CTDE |
 
 ***Graph Neural Networks***: Graph Neural Networks (GNNs) provide an alternative approach to coordination by explicitly modeling relationships between agents. Rather than treating agents as independent entities, GNNs represent a multi-agent system as a graph in which agents are nodes and interactions between agents are represented as edges.
 
