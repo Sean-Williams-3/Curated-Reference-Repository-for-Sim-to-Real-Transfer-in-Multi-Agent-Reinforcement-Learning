@@ -28,9 +28,9 @@ coordination. These approaches differ in both their underlying assumptions and t
 designed to address. The following sections examine each category in detail, while Table 1 provides an overview of the
 taxonomy, representative methodologies, and their relationship to observation, dynamics, and coordination mismatch
 
-* Robust Policy
-- Adapt Sim
-- Adapt Policy
+* Robust Policies
+* Adapt Simulation
+- Adapt Policies
 - Robust Coordination
 
 ---
