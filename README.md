@@ -52,8 +52,20 @@ Domain randomization introduces variability into the simulator’s observation a
 | Peng et al. | 2018 | `peng2018sim` | Dynamics randomization for sim-to-real control. |
 | Shi et al. | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer. |
 
-# Adapt Sim
+# Adapt Simulated Domain to Match Real Domain
 
+Unlike robustness-based approaches that seek to prepare agents for uncertainty before deployment, simulator adaptation
+methods use observations collected from the real world to improve simulation fidelity.
+
+## System Identification
+
+## Domain Adaptation
+
+## Grounding Methods
+
+## Digital Twins
+
+# Adapt Policy to Real Domain1
 | Paper | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
 | Rao et al. (RL-CycleGAN) | 2020 | `rao2020rlcyclegan` | Observation alignment through image translation. |
