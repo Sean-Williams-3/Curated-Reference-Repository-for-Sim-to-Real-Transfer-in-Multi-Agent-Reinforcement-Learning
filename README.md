@@ -24,6 +24,7 @@ Domain randomization introduces variability into the simulator’s observation a
 |Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
 | Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
 | Tobin et al. | Domain randomization for transferring deep neural networks from simulation to the real world | 2017 | `8202133` | Applied domain randomization to a computer vision challenge in robotics | 
+| Samak et al. | A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems | 2024 | Utilized the Proximal Policy Optimization (PPO) algorithm with agents sharing information, combined with domain randomization, and a digital twin.
 ---
 # Adapt Simulated Domain to Match Real Domain
 
@@ -48,7 +49,8 @@ methods use observations collected from the real world to improve simulation fid
 ## Digital Twins
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
-
+| Samak et al. | A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems | 2024 | `Samak2024scalable` |Utilized the Proximal Policy Optimization (PPO) algorithm with agents sharing information, combined with domain randomization, and a digital twin.
+| Samak et al. | Mixed-Reality Digital Twins: Leveraging the Physical and Virtual Worlds for Hybrid Sim2Real Transition of Multi-Agent Reinforcement Learning Policies | 2026 | `samak2026mixed` |Expanded prior research to increase emphasis and analysis of digital twin construct.
 ---
 # Adapt Policy to Real Domain
 
