@@ -33,9 +33,9 @@ methods use observations collected from the real world to improve simulation fid
 ## System Identification
 
 | Paper | Title | Year | BibTeX Key | Contribution |
-|---------|---------|---------|---------|
-
+|---------|---------|---------|---------|---------|
 | Zhao et al. | Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: A Survey | 2020 | `zhao_sim2real_2020` | A survey of sim-to-real transfer that covers topics of meta-learning, system identification, and domain randomization|
+| Werner et al. | Dynamic Multi-Team Racing: Competitive Driving on 1/10-th Scale Vehicles via Learning in Simulation | 2023 | `werner2023dynamic` | Applied System Identification and CTDE via a decoupled SARSA to a MARL team racing problem set |
 
 ## Domain Adaptation
 | Paper | Title | Year | BibTeX Key | Contribution |
@@ -87,6 +87,7 @@ methods use observations collected from the real world to improve simulation fid
 |---------|---------|---------|---------|
 |Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
 | Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
+| Werner et al. | Dynamic Multi-Team Racing: Competitive Driving on 1/10-th Scale Vehicles via Learning in Simulation | `werner2023dynamic` | Applied System Identification and CTDE via a decoupled SARSA to a MARL team racing problem set
 
 ## Communication Learning
 
