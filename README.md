@@ -10,18 +10,24 @@ This repository accompanies the survey:
 
 The deployment of Multi-Agent Reinforcement Learning (MARL) systems in the real world is hindered by the **sim-to-real gap**, where policies trained in simulation experience degraded performance after deployment.
 
-This repository organizes literature according to a mismatch-centric taxonomy:
+This survey organizes sim-to-real transfer methods into a taxonomy based on how each approach addresses the sources
+of mismatch identified in the previous section. Specifically, the literature can be grouped into four broad categories
+according to the primary mechanism used to reduce the sim-to-real gap: (1) learning policies that are robust to
+mismatch between simulated and real domains, (2) adapting the simulated domain to more closely match the real
+domain, (3) adapting policies to the real domain after deployment, and (4) improving the robustness of multi-agent
+coordination. These approaches differ in both their underlying assumptions and the mismatch categories they are
+designed to address. The following sections examine each category in detail, while Table 1 provides an overview of the
+taxonomy, representative methodologies, and their relationship to observation, dynamics, and coordination mismatch
 
-- Robust
+* Robust Policy
 - Adapt Sim
 - Adapt Policy
 - Robust Coordination
 
 ---
 
-# Robust
-
-Observation mismatch occurs when the observations received by an agent during deployment differ from those encountered during training.
+# Learning Policies That are Robust to
+Mismatch Between Simulated and Real Domains
 
 ## Domain Randomization
 
