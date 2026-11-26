@@ -39,7 +39,8 @@ methods use observations collected from the real world to improve simulation fid
 
 ## Domain Adaptation
 | Paper | Title | Year | BibTeX Key | Contribution |
-|---------|---------|---------|---------|
+|---------|---------|---------|---------|---------|
+| Rao et al. | RL-CycleGAN: Reinforcement Learning Aware Simulation-to-Real | 2020 | `Rao2020RLCycleGANRL` | Used a representative example of domain adaptation in Cycle-Consistent Generative Adversarial Networks (CycleGANs) to translate simulated images into realistic images and vice versa while evaluating the ability to retain decision-relevant information. |
 
 ## Grounding Methods
 | Paper | Title | Year | BibTeX Key | Contribution |
