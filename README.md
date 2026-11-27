@@ -91,5 +91,4 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
 
-| Paper | Year | BibTeX Key | Contribution |
-|---------|---------|---------|---------|
+| Wu et al. | A Comprehensive Survey on Graph Neural Networks | 2021 | Provides a comprehensive survey of Graph Neural Networks |
