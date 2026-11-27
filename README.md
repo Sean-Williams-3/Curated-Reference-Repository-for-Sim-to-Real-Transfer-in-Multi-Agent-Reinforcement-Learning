@@ -90,4 +90,6 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
-| Wu et al. | A Comprehensive Survey on Graph Neural Networks | 2021 | `wu2021comprehensive` | Provides a comprehensive survey of Graph Neural Networks |
+| Wu et al. | A Comprehensive Survey on Graph Neural Networks | 2021 | `wu2021comprehensive` | Comprehensive survey of graph neural network architectures and message passing techniques. |
+| Jiang et al. | Graph Convolutional Reinforcement Learning | 2020 | `jiang2020dgn` | Applies graph convolution to multi-agent coordination. |
+| Ding et al. | Deep Implicit Coordination Graphs | 2020 | `ding2020dicg` | Learns latent coordination structures among agents. |
