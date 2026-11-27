@@ -38,7 +38,7 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
-| Turnau et al. | RL-CycleGAN: Reinforcement Learning Aware Simulation-to-Real | 2020 | `Rao2020RLCycleGANRL` | Used a representative example of domain adaptation in Cycle-Consistent Generative Adversarial Networks (CycleGANs) to translate simulated images into realistic images and vice versa while evaluating the ability to retain decision-relevant information. |
+| Rao et al. | RL-CycleGAN: Reinforcement Learning Aware Simulation-to-Real | 2020 | `Rao2020RLCycleGANRL` | Used a representative example of domain adaptation in Cycle-Consistent Generative Adversarial Networks (CycleGANs) to translate simulated images into realistic images and vice versa while evaluating the ability to retain decision-relevant information. |
 |Bousmalis et al. |	Using Simulation and Domain Adaptation to Improve Efficiency of Deep Robotic Grasping	| 2018	| `bousmalis2018domain`	| Introduced pixel-level domain adaptation using adversarial image translation to align simulated and real observations for robotic grasping.
 | Carr et al. | Domain Adaptation for Reinforcement Learning on the Atari | 2018 | `Carr2018DomainAF` | Applied Domain Adaptation to a domain transfer problem set via a GAN. Although they used transference between two atari games, it was not directly sim-to-real domain transfer, but showed another example of how domain adaptation can improve domain learning.
 
@@ -46,7 +46,7 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
-| Rao et al. | Joint-Local Grounded Action Transformation for Sim-to-Real Transfer in Multi-Agent Traffic Control | 2025 | `turnau2025jlgat` | Introduces a grounding action transformation to address dynamic mismatch in traffic control solutions.|
+| Turnau et al. | Joint-Local Grounded Action Transformation for Sim-to-Real Transfer in Multi-Agent Traffic Control | 2025 | `turnau2025jlgat` | Introduces a grounding action transformation to address dynamic mismatch in traffic control solutions.|
 | Chbotar et al. | Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience | 2019 | `chebotar2019closing` | Introduced an iterative approach that updated the distribution associated with simulator parameters based on descrepancies between the simulation and real world. Although the author does not directly identify this approach as a grounding method, SimOpt is closely related.| 
 
 
@@ -82,7 +82,7 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 |---------|---------|---------|---------|---------|
 |Candela et al. | Transferring Multi-Agent Reinforcement Learning Policies for Autonomous Driving using Sim-to-Real | 2022 | `candela2022transferring` | Combined MAPPO with domain randomization to solve transference in duckietown environment |
 | Shi et al. | MARL Sim2Real Transfer: Merging Physical Reality With Digital Virtuality in Metaverse | 2023 | `shi_marl_2023` | Randomized observation variables within MARL sim-to-real transfer and applied a recurrent neural network using an LSTM layer as part of a MADDPG|
-| Werner et al. | Dynamic Multi-Team Racing: Competitive Driving on 1/10-th Scale Vehicles via Learning in Simulation | `werner2023dynamic` | Applied System Identification and CTDE via a decoupled SARSA to a MARL team racing problem set
+| Werner et al. | Dynamic Multi-Team Racing: Competitive Driving on 1/10-th Scale Vehicles via Learning in Simulation | 2023 | `werner2023dynamic` | Applied System Identification and CTDE via a decoupled SARSA to a MARL team racing problem set
 | Rashid et al. | QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning | 2018 | `rashid2018qmix` | Foundational paper that presented QMIX as a an approach to CTDE |
 | Lowe et al. | Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments | 2017 | `lowe2017maddpg` | Introduces MADDPG as an algorithm to address the non-stationary challenge and provide CTDE | 
 
