@@ -48,7 +48,7 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 |---------|---------|---------|---------|---------|
 | Turnau et al. | Joint-Local Grounded Action Transformation for Sim-to-Real Transfer in Multi-Agent Traffic Control | 2025 | `turnau2025jlgat` | Introduces a grounding action transformation to address dynamic mismatch in traffic control solutions.|
 | Chbotar et al. | Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience | 2019 | `chebotar2019closing` | Introduced an iterative approach that updated the distribution associated with simulator parameters based on descrepancies between the simulation and real world. Although the author does not directly identify this approach as a grounding method, SimOpt is closely related.| 
-
+| Hanna et al. | Grounded Action Transformation for Sim-to-Real Reinforcement Learning | 2021 | `hanna2021gat` | Introduced Grounded Action Transformation (GAT), which learns action mappings that align simulated and real-world transition dynamics, improving sim-to-real transfer without requiring a fully accurate simulator. |
 
 ***Digital Twins***: Digital twin approaches extend simulator adaptation by maintaining a continuously synchronized virtual representation of a physical system. 
 
