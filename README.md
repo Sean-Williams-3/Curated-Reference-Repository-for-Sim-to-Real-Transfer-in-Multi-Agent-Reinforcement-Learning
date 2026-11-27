@@ -38,14 +38,15 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
-| Rao et al. | Joint-Local Grounded Action Transformation for Sim-to-Real Transfer in Multi-Agent Traffic Control | 2025 | `turnau2025jlgat` | Introduces a grounding action transformation to address dynamic mismatch in traffic control solutions.|
+| Turnau et al. | RL-CycleGAN: Reinforcement Learning Aware Simulation-to-Real | 2020 | `Rao2020RLCycleGANRL` | Used a representative example of domain adaptation in Cycle-Consistent Generative Adversarial Networks (CycleGANs) to translate simulated images into realistic images and vice versa while evaluating the ability to retain decision-relevant information. |
 
 ***Grounding Methods***: seek to reduce simulator bias by directly aligning simulated system behavior with observations collected from the real world. Unlike domain adaptation approaches, which primarily focus on translating observations or learned representations between domains, grounding methods operate on the interaction between domain dynamics using limited real-world data to improve or ground an imperfect simulator in reality.
 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
-| Turnau et al. | RL-CycleGAN: Reinforcement Learning Aware Simulation-to-Real | 2020 | `Rao2020RLCycleGANRL` | Used a representative example of domain adaptation in Cycle-Consistent Generative Adversarial Networks (CycleGANs) to translate simulated images into realistic images and vice versa while evaluating the ability to retain decision-relevant information. |
+| Rao et al. | Joint-Local Grounded Action Transformation for Sim-to-Real Transfer in Multi-Agent Traffic Control | 2025 | `turnau2025jlgat` | Introduces a grounding action transformation to address dynamic mismatch in traffic control solutions.|
 | Chbotar et al. | Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience | 2019 | `chebotar2019closing` | Introduced an iterative approach that updated the distribution associated with simulator parameters based on descrepancies between the simulation and real world. Although the author does not directly identify this approach as a grounding method, SimOpt is closely related.| 
+
 
 ***Digital Twins***: Digital twin approaches extend simulator adaptation by maintaining a continuously synchronized virtual representation of a physical system. 
 
@@ -82,7 +83,11 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 | Werner et al. | Dynamic Multi-Team Racing: Competitive Driving on 1/10-th Scale Vehicles via Learning in Simulation | `werner2023dynamic` | Applied System Identification and CTDE via a decoupled SARSA to a MARL team racing problem set
 | Rashid et al. | QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning | 2018 | `rashid2018qmix` | Foundational paper that presented QMIX as a an approach to CTDE |
 | Lowe et al. | Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments | 2017 | `lowe2017maddpg` | Introduces MADDPG as an algorithm to address the non-stationary challenge and provide CTDE | 
+
 ***Graph Neural Networks***: Graph Neural Networks (GNNs) provide an alternative approach to coordination by explicitly modeling relationships between agents. Rather than treating agents as independent entities, GNNs represent a multi-agent system as a graph in which agents are nodes and interactions between agents are represented as edges.
+
+| Paper | Title | Year | BibTeX Key | Contribution |
+|---------|---------|---------|---------|---------|
 
 | Paper | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|
