@@ -39,6 +39,7 @@ This survey organizes sim-to-real transfer methods into a taxonomy based on how 
 | Paper | Title | Year | BibTeX Key | Contribution |
 |---------|---------|---------|---------|---------|
 | Turnau et al. | RL-CycleGAN: Reinforcement Learning Aware Simulation-to-Real | 2020 | `Rao2020RLCycleGANRL` | Used a representative example of domain adaptation in Cycle-Consistent Generative Adversarial Networks (CycleGANs) to translate simulated images into realistic images and vice versa while evaluating the ability to retain decision-relevant information. |
+|Bousmalis et al. |	Using Simulation and Domain Adaptation to Improve Efficiency of Deep Robotic Grasping	| 2018	| `bousmalis2018domain`	| Introduced pixel-level domain adaptation using adversarial image translation to align simulated and real observations for robotic grasping.
 
 ***Grounding Methods***: seek to reduce simulator bias by directly aligning simulated system behavior with observations collected from the real world. Unlike domain adaptation approaches, which primarily focus on translating observations or learned representations between domains, grounding methods operate on the interaction between domain dynamics using limited real-world data to improve or ground an imperfect simulator in reality.
 
